@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Добавьте категорию"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:id="@+id/editCategory"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/savecategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Сохранить"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/lime"
+        />
+    <Button
+        android:id="@+id/addservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Добавить сервисы"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/lime"
+        />
+</LinearLayout>

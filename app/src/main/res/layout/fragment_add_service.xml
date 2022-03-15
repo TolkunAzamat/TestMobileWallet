@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddServiceFragment"
+    android:orientation="vertical">
+<ImageButton
+    android:id="@+id/imgbtn"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/ic_back_24"
+    android:backgroundTint="@color/lime"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавьте услугу"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/editService"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/listofcategory"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"/>
+    <Button
+        android:id="@+id/saveservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Сохранить"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/lime"
+        />
+
+</LinearLayout>
